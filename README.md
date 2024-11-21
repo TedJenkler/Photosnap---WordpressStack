@@ -2,13 +2,14 @@
 
 ## Table of Contents
 1. [Breakpoints](#breakpoints)
-2. [Fluid Layouts](#fluid-layouts)
-3. [Mobile-First](#mobile-first)
-4. [Performance Optimization](#performance-optimization)
+2. [Cross-Browser Testing](#cross-browser-testing)
+3. [Fluid Layouts](#fluid-layouts)
+4. [Mobile-First](#mobile-first)
+5. [Performance Optimization](#performance-optimization)
    - [Image Optimization](#image-optimization)
    - [Font Optimization](#font-optimization)
    - [Lazy Loading and JavaScript Optimization](#lazy-loading-and-javascript-optimization)
-5. [Accessibility (a11y)](#accessibility-a11y)
+6. [Accessibility (a11y)](#accessibility-a11y)
    - [Keyboard Navigation](#keyboard-navigation)
    - [ARIA Roles](#aria-roles)
    - [Alt Text for Images](#alt-text-for-images)
@@ -32,6 +33,15 @@ These are the breakpoints used in the project, targeting various device screen w
 - **1600px**: Large desktops or wide laptops
 - **1920px**: Full HD monitors
 - **2560px**: Ultra-wide or 4K displays
+
+## Cross-Browser Testing
+
+I ensured consistent design performance across **Mozilla Firefox**, **Google Chrome**, and **Microsoft Edge**, focusing on different viewport widths for each browser.
+
+- **Mozilla Firefox**: Firefox showed a slightly wider desktop screen due to a smaller scrollbar, so I adjusted the layout to account for this.
+- **Google Chrome**: Chrome displayed a larger scrollbar, which resulted in a slightly narrower desktop viewport, requiring small layout tweaks.
+
+I applied **browser-specific CSS prefixes** and tested the design across mobile and desktop versions to ensure optimal rendering on all platforms.
 
 ## Fluid Layouts
 
