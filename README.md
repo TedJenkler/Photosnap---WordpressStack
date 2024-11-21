@@ -97,7 +97,7 @@ This optimization resulted in faster page load times and improved performance me
 
 ### Keyboard Navigation
 
-- I have added `tabindex` on all links so that users easily can go through the site.
+- I have ensured that all links are tabbable, allowing users to easily navigate through the site.
 
 ### ARIA Roles
 
