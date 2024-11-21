@@ -16,6 +16,19 @@
 
 ---
 
+## Screenshots
+
+### Desktop View
+![Photosnap Desktop](photosnap-desktop.png)
+
+### Tablet View
+![Photosnap Tablet](photosnap-tablet.png)
+
+### Mobile View
+![Photosnap Mobile](photosnap-mobile.png)
+
+---
+
 ## Breakpoints
 
 These are the breakpoints used in the project, targeting various device screen widths:
