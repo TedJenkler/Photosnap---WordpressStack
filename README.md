@@ -14,6 +14,7 @@
    - [ARIA Roles](#aria-roles)
    - [Alt Text for Images](#alt-text-for-images)
    - [Accessibility Testing with Axe](#accessibility-testing-with-axe)
+   - [Accessibility Testing with WAVE](#accessibility-testing-with-wave)
 
 ---
 
@@ -124,4 +125,9 @@ This optimization resulted in faster page load times and improved performance me
 ### Accessibility Testing with Axe
 
 - I have tested the site using the Axe DevTools browser extension to identify and resolve accessibility issues. The testing ensures compliance with WCAG 2.1 AA standards.
-- All detected issues have been reviewed and addressed where applicable to improve the overall accessibility of the site.
+- All detected issues from Axe have been reviewed and addressed where applicable to improve the overall accessibility of the site.
+
+### Accessibility Testing with WAVE
+
+- I have tested the site using the WAVE Web Accessibility Evaluation Tool to identify additional accessibility issues.
+- Any issues detected by WAVE have been addressed to ensure a fully accessible experience across the site.
