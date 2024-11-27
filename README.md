@@ -13,6 +13,7 @@
    - [Keyboard Navigation](#keyboard-navigation)
    - [ARIA Roles](#aria-roles)
    - [Alt Text for Images](#alt-text-for-images)
+   - [Accessibility Testing with Axe](#accessibility-testing-with-axe)
 
 ---
 
@@ -119,3 +120,8 @@ This optimization resulted in faster page load times and improved performance me
 ### Alt Text for Images
 
 - I have added `alt` text on all images that aren't used as background images, ensuring that screen readers can interpret them for better accessibility.
+
+### Accessibility Testing with Axe
+
+- I have tested the site using the Axe DevTools browser extension to identify and resolve accessibility issues. The testing ensures compliance with WCAG 2.1 AA standards.
+- All detected issues have been reviewed and addressed where applicable to improve the overall accessibility of the site.
